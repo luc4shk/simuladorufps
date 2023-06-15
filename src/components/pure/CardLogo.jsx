@@ -16,7 +16,7 @@ export default function CardLogo({ children, wd, hg }) {
         boxShadow="lg"
       >
         <Image
-          src="../../../public/Logo1.jpg"
+          src="https://i.postimg.cc/VkY33Z1x/Logo1.jpg"
           borderRadius="full"
           boxSize="150px"
           mx="auto"

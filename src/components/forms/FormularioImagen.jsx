@@ -32,11 +32,7 @@ const actualizaravatar = async (file) =>{
   "" 
   localStorage.setItem("imagen",response.data.imageFile)
   setImagen(localStorage.getItem("imagen"))
-
-  const time = setTimeout(()=>{
-  window.location.reload()
-  },2000)
-  // navigation("/home")
+  navigation("/home")
 }
 
 
